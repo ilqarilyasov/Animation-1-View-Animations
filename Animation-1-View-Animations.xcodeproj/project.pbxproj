@@ -13,6 +13,7 @@
 		820FF064216459A3002AC2CD /* Animation_1_View_Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 820FF062216459A3002AC2CD /* Animation_1_View_Animations.xcdatamodeld */; };
 		820FF066216459A4002AC2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820FF065216459A4002AC2CD /* Assets.xcassets */; };
 		820FF069216459A4002AC2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820FF067216459A4002AC2CD /* LaunchScreen.storyboard */; };
+		820FF07521645FC9002AC2CD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF07421645FC9002AC2CD /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		820FF065216459A4002AC2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820FF068216459A4002AC2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		820FF06A216459A4002AC2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820FF07321645EFF002AC2CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		820FF07421645FC9002AC2CD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				820FF05D216459A3002AC2CD /* ViewController.swift */,
+				820FF07421645FC9002AC2CD /* Test.swift */,
 				820FF05F216459A3002AC2CD /* Main.storyboard */,
 				820FF071216459BC002AC2CD /* Model */,
 				820FF070216459B5002AC2CD /* Resources */,
@@ -155,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				820FF05E216459A3002AC2CD /* ViewController.swift in Sources */,
+				820FF07521645FC9002AC2CD /* Test.swift in Sources */,
 				820FF064216459A3002AC2CD /* Animation_1_View_Animations.xcdatamodeld in Sources */,
 				820FF05C216459A3002AC2CD /* AppDelegate.swift in Sources */,
 			);
@@ -167,6 +172,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				820FF060216459A3002AC2CD /* Base */,
+				820FF07321645EFF002AC2CD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
